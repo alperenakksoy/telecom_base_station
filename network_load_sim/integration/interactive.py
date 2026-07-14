@@ -57,7 +57,7 @@ def run_interactive(grid_size: int = 15, n_steps: int = 97) -> None:
     ax_hour = plt.axes((0.15, 0.20, 0.55, 0.03))
     ax_mu = plt.axes((0.15, 0.14, 0.7, 0.03))
     ax_density = plt.axes((0.15, 0.08, 0.7, 0.03))
-    ax_day = plt.axes((0.15, 0.02, 0.7, 0.03))
+    ax_day = plt.axes((0.15, 0.02, 0.55, 0.03))
     ax_play = plt.axes((0.76, 0.195, 0.1, 0.04))
     ax_summary = plt.axes((0.76, 0.02, 0.1, 0.04))
 
